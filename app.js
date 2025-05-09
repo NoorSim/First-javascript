@@ -1,12 +1,9 @@
-//Filter out 'FAIL' without using the array filter method
-let grades = ['A+', 'A', 'FAIL']
+//Strings
+console.log('Hello World'[10])
 
-let goodGrades = []
+console.log('12345'.length)
 
-for (let i = 0; i < grades.length; ++i) {
-  if (grades[i] !== 'FAIL') {
-    goodGrades.push(grades[i])
-  }
-}
-
-console.log(goodGrades)
+//Variables
+let temperature = 20
+temperature = temperature + 2
+console.log(temperature)
